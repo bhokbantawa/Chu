@@ -2,7 +2,6 @@ import random
 import string
 import requests
 from user_agent import generate_user_agent
-from proxy import reqproxy, make_request
 import json
 import re
 
@@ -34,9 +33,6 @@ def generate_random_code(length=32):
 
 #============================================
 def Tele(ccx):
-    proxy_str = "74.122.57.76:44384:A0s7hfRRSYOjI90:Dw8y5rDvityH0Wk"
-    session, ip = reqproxy(proxy_str)
-    print(f"IP Address: {ip}")
     ccx=ccx.strip()
     n = ccx.split("|")[0]
     mm = ccx.split("|")[1]
