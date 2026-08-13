@@ -34,9 +34,9 @@ def generate_random_code(length=32):
 
 #============================================
 def Tele(ccx):
-    #proxy_str = "brd.superproxy.io:33335:brd-customer-hl_5c664e64-zone-datacenter_proxy1:0bnfn02i83lj"
-    #session, ip = reqproxy(proxy_str)
-    #print(f"IP Address: {ip}")
+    proxy_str = "74.122.57.76:44384:A0s7hfRRSYOjI90:Dw8y5rDvityH0Wk"
+    session, ip = reqproxy(proxy_str)
+    print(f"IP Address: {ip}")
     ccx=ccx.strip()
     n = ccx.split("|")[0]
     mm = ccx.split("|")[1]
